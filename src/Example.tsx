@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export interface ExampleProps{
-    yourName: String
+export interface ExampleProps {
+  yourName: String;
 }
 
-export function Example({yourName} : ExampleProps){
-    return <div>Hola mundo, {yourName}! </div>
+export function Example({ yourName }: ExampleProps) {
+  return <div>Hola mundo, {yourName}! </div>;
 }
